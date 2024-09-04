@@ -27,7 +27,7 @@ y.style.color = "green";
 let z = document.getElementById("button1");
 let dbz = document.getElementById("button2");
 
-x.addEventListener("mouseover", function () {
+y.addEventListener("mouseover", function () {
   let y = "#";
   y = y + (Math.floor(Math.random() * 500000) + 99999);
   x.style.backgroundColor = y;
